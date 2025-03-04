@@ -15,13 +15,13 @@ export const metadata = {
     ],
     shortcut: '/favicon.ico',
     apple: [
-      { url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' }
+      { url: '/brand/logo.png', sizes: '180x180', type: 'image/png' }
     ]
   },
   other: {
     'apple-mobile-web-app-title': 'Tribeca Date',
     'application-name': 'Tribeca Date',
-    'msapplication-TileImage': '/mstile-144x144.png',
+    'msapplication-TileImage': '/brand/logo.png',
     'msapplication-TileColor': '#000000',
     'theme-color': '#FFFFFF',
     'manifest': '/site.webmanifest'
