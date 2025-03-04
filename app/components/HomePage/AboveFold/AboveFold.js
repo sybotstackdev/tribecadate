@@ -35,9 +35,9 @@ export default function AboveFold() {
                 <div className="absolute bottom-0 left-0 right-0 z-20 md:flex items-center justify-center bg-black/50 backdrop-blur-md py-4">
                     <div className="grid grid-cols-2 md:flex flex-wrap items-center justify-center space-x-16 md:space-x-22 px-8 text-white">
                         {/* Example placeholder logos. Replace with your own images */}
-                        {/* <div className="flex flex-col items-center space-y-1">
+                        <div className="flex flex-col items-center space-y-1">
                             <span className="text-xs uppercase">As seen on</span>
-                        </div> */}
+                        </div>
                         <DynamicImage
                             image="https://images.squarespace-cdn.com/content/v1/66f4261885444f286787c561/1733313321675-U94K9CY3ZLRX907DF2K7/17333131928488559-4.png?format=300w"
                             alt="Today"

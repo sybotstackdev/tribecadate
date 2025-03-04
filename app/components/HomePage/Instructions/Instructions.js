@@ -3,7 +3,7 @@ import DynamicImage from '@/app/components/Modules/Image/DynamicImage'
 import PrimaryButton from '@/app/components/Modules/Button/PrimaryButton'
 const Instructions = () => {
     return (
-        <div className=' w-[80%] my-12 mx-auto'>
+        <div className=' md:w-[80%] my-12 mx-auto'>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
                 <div>
                     <h3 className='text-subheading font-semibold '>This is the world’s most exclusive network, bringing together accomplished and attractive people with winning personalities, in search of the perfect partner.

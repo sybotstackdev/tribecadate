@@ -36,7 +36,7 @@ export default function Panel() {
     ];
 
     return (
-        <div className='grid grid-cols-1 md:grid-cols-2 gap-8 my-12 w-[60%] mx-auto'>
+        <div className='grid grid-cols-1 md:grid-cols-2 gap-8 my-12 md:w-[60%] mx-auto'>
             {plan.map((plan, index) => (
                 <div key={index}
                     className={`relative flex flex-col rounded-md border p-6 shadow-sm
