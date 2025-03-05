@@ -27,22 +27,25 @@ export default function AboveFold() {
                 <h1 className="mb-4 max-w-2xl text-3xl font-semibold md:text-4xl">
                 Helping You Connect with the Exceptional
                 </h1>
-                <p className="max-w-2xl text-sm font-light md:text-lg">
+                <p className="max-w-2xl text-sm font-light md:text-lg mb-12">
                 Our club curates personal introductions between ambitious, handsome, and highly driven individuals, ensuring connections of substance, vision, and aligned values. Tribeca Date provides a refined experience tailored to the lifestyles and expectations of extraordinary entrepreneurs, delivering meaningful relationships among elite peers.
                 </p>
                 <div className="absolute bottom-0 left-0 right-0 z-20 md:flex items-center justify-center bg-black/50 backdrop-blur-md py-4">
-                    <div className="grid grid-cols-2 md:flex flex-wrap items-center justify-center space-x-16 md:space-x-22 px-8 text-white">
+                    <div className="grid grid-cols-2 gap-4 mx-auto md:flex flex-wrap items-center justify-center space-x-0 md:space-x-22 px-8 text-white">
                         {/* Example placeholder logos. Replace with your own images */}
-                        <div className="flex flex-col items-center space-y-1">
+                        <div className="col-span-2  md:flex flex-col items-center space-y-1">
                         <span className="text-xs uppercase">Matchmakers Reported In</span>
                         </div>
+                        <div className='flex justify-center'>
                         <DynamicImage
                             image="https://images.squarespace-cdn.com/content/v1/66f4261885444f286787c561/1733313321675-U94K9CY3ZLRX907DF2K7/17333131928488559-4.png?format=300w"
                             alt="Today"
-                            width={70}
+                            width={60}
                             height={40}
                             className="object-contain"
                         />
+                        </div>
+                        <div className='flex justify-center'>
                         <DynamicImage
                             image="https://images.squarespace-cdn.com/content/v1/66f4261885444f286787c561/1733313322437-NWP4Q2NSAYLFJMC3N5LP/17333131928488559-3.png?format=300w"
                             alt="NBC"
@@ -50,20 +53,26 @@ export default function AboveFold() {
                             height={40}
                             className="object-contain"
                         />
+                        </div>
+                        <div className='flex justify-center'>
                         <DynamicImage
                             image="https://images.squarespace-cdn.com/content/v1/66f4261885444f286787c561/1733313322616-SNTKYIAQR5PFYWTO42VR/17333131928488559-2.png?format=500w"
                             alt="Nasdaq"
-                            width={80}
+                            width={60}
                             height={40}
                             className="object-contain"
                         />
+                        </div>
+                        <div className='flex justify-center'>
                         <DynamicImage
                             image="https://images.squarespace-cdn.com/content/v1/66f4261885444f286787c561/1733313323682-73KXANCEH6C3387UZ2B9/17333131928488559-1.png?format=500w"
                             alt="Forbes"
-                            width={80}
+                            width={60}
                             height={40}
                             className="object-contain"
-                        />
+                            />
+                        </div>
+                        <div className='flex justify-center'>
                         <DynamicImage
                             image="https://images.squarespace-cdn.com/content/v1/66f4261885444f286787c561/1733313323819-57EK1JPD5U7OV49D4ILV/17333131928488559.png?format=500w"
                             alt="CNBC"
@@ -71,13 +80,16 @@ export default function AboveFold() {
                             height={40}
                             className="object-contain"
                         />
+                        </div>
+                        <div className='flex justify-center'>
                         <DynamicImage
                             image="https://images.squarespace-cdn.com/content/v1/66f4261885444f286787c561/1733828380314-F2MEL9MV66HIONWJJWW3/79-791002_the-new-york-times-new-york-times-logo-2237004972.png?format=500w"
                             alt="The New York Times"
-                            width={80}
+                            width={60}
                             height={40}
                             className="object-contain"
                         />
+                        </div>
                     </div>
                 </div>
             </div>

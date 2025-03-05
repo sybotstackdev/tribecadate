@@ -22,13 +22,13 @@ export default function Footer() {
                     >
                         info@tribecadate.com
                     </a>{' '}
-                    | PHONE:{' '}
+                    {/* | PHONE:{' '}
                     <a
                         href="tel:+13107717362"
                         className="font-medium text-gray-800 hover:underline"
                     >
                         +1 (310) 771-7362
-                    </a>
+                    </a> */}
                 </div>
 
                 {/* Navigation Links */}
@@ -55,9 +55,9 @@ export default function Footer() {
 
                 {/* Copyright & Designer Info */}
                 <div className="text-xs text-gray-500">
-                    © Soho Date Club. All rights reserved.
+                    © Tribeca Date Club. All rights reserved.
                 </div>
-                <div className="text-xs text-gray-500">SIDE DESIGN</div>
+                {/* <div className="text-xs text-gray-500">SIDE DESIGN</div>     */}
 
                 {/* Icons (BBB rating, Instagram, etc.) */}
                 <div className="flex items-center space-x-4">

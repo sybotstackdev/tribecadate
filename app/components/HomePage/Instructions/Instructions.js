@@ -30,7 +30,7 @@ const Instructions = ({ onClick }) => {
                 </div>
             </div>
             <div className='flex flex-col md:flex-row justify-center items-center gap-8 mt-8'>
-                <h3 className='text-subheading font-semibold '>Are you Tribeca for Soho Date Club?</h3>
+                <h3 className='text-subheading font-semibold '>Are you eligible for Tribeca Date Club?</h3>
                 <PrimaryButton text='Discover more' className={"uppercase text-sm py-3.5 px-8 cursor-pointer hover:bg-black hover:text-white"} onClick={(e) => onClick()} />
             </div>
         </div>
