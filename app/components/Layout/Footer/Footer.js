@@ -1,6 +1,7 @@
 // components/Footer.jsx
 
 import DynamicImage from '@/app/components/Modules/Image/DynamicImage'
+import Link from 'next/link'
 export default function Footer() {
     return (
         <footer className="w-full border-t border-gray-200 bg-white py-6">
@@ -14,10 +15,10 @@ export default function Footer() {
                 <div className="text-sm text-gray-600">
                     EMAIL:{' '}
                     <a
-                        href="mailto:info@tribecadate.com"
+                        href="mailto:team@tribecadate.com"
                         className="font-medium text-gray-800 hover:underline"
                     >
-                        info@tribecadate.com
+                        team@tribecadate.com
                     </a>{' '}
                     {/* | PHONE:{' '}
                     <a
@@ -59,14 +60,14 @@ export default function Footer() {
                 {/* Icons (BBB rating, Instagram, etc.) */}
                 <div className="flex items-center space-x-4">
                     {/* Replace /bbb-a-plus.png with your actual path */}
-                    <div className=''>
+                    {/* <div className=''>
                         <DynamicImage image={'/social-logos/fb.webp'} alt={'image1'} width={40} height={40} />
-                    </div>
+                    </div> */}
 
                     {/* Instagram Icon */}
-                    <div className=''>
+                    <Link href={"https://www.instagram.com/tribecadate?igsh=MXg3dDcxcW1rODd3dw%3D%3D&utm_source=qr"} target='_blank' className=''>
                         <DynamicImage image={'/social-logos/instagram.webp'} alt={'image1'} width={45} height={45} />
-                    </div>
+                    </Link>
 
                 </div>
             </div>

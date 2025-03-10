@@ -7,7 +7,7 @@ const Rate = () => {
             description: 'Net Worth'
         },
         {
-            title: '<35',
+            title: '<35yo',
             description: 'Membership Criteria'
         },
         {
